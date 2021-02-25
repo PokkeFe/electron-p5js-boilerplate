@@ -9,6 +9,7 @@
     --background-tertiary: #202225;
     --background-accent: #4f545c;
     --background-floating: #18191c;
+    --appbar-title: #9ea0a3;
 }
 
 #pk-appbar {
@@ -41,13 +42,13 @@
 }
 
 
-.title {
+#pk-appbar .title {
   font-family: Consolas, sans-serif;
   letter-spacing: 1px;
   overflow: hidden;
   white-space: nowrap;
   -webkit-app-region: drag;
-  color: var(--background-accent);
+  color: var(--appbar-title);
 }
 
 #close-btn {
